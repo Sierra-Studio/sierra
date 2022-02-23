@@ -1,2 +1,2 @@
-# sierra
+# Sierra Studio
 Landing Page
