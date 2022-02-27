@@ -1,0 +1,32 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  color: #19232d;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: none;
+  display: block;
+}
+
+::selection {
+    background: #00e100;
+    color: #19232d;
+}
+
+.Layout {
+  max-width: 63.2rem;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Header {
+  padding-top: 2.5rem;
+}
